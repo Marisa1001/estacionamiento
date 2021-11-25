@@ -15,8 +15,8 @@ class AutoSeeder extends Seeder
     public function run()
     {
         DB::table("autos")->insert([
-            ["placa"=>"AAA-1010","marca"=>"NISSAN","cliente_id"=>1],
-            ["placa"=>"AAA-2020","marca"=>"TOYOTA","cliente_id"=>2],
+            ["placa"=>"AAA-7896","marca"=>"COROLA","cliente_id"=>1],
+            ["placa"=>"AAA-2020","marca"=>"NISSAN","cliente_id"=>2],
         ]);
     }
 }

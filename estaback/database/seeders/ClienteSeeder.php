@@ -15,8 +15,8 @@ class ClienteSeeder extends Seeder
     public function run()
     {
         DB::table("clientes")->insert([
-            ["ci"=>"1010","nombre"=>"JUAN LOPEZ"],
-            ["ci"=>"2020","nombre"=>"MARIA JUARES"],
+            ["ci"=>"1010","nombre"=>"MARISA PAREDES"],
+            ["ci"=>"2020","nombre"=>"ROCIO AGUILAR"],
         ]);
     }
 }

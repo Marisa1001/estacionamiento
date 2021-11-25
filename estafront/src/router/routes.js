@@ -8,6 +8,8 @@ const routes = [
       { path: 'login', component: () => import('pages/Login.vue') },
       { path: 'secure', component: () => import('pages/Secure.vue') , meta: {requiresAuth: true}},
       { path: 'garaje', component: () => import('pages/Garaje.vue') , meta: {requiresAuth: true}},
+      { path: 'clientes', component: () => import('pages/Clientes.vue') , meta: {requiresAuth: true}},
+      { path: 'autos', component: () => import('pages/Autos.vue') , meta: {requiresAuth: true}},
     ]
   },
 

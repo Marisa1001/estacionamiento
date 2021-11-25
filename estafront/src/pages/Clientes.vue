@@ -1,8 +1,8 @@
 <template>
     <q-page class="q-pa-lg">
         <form action="" @submit.prevent="registrarlog">
-            <input type="text" placeholder="ci" v-model="log.ci">
-            <input type="text" placeholder="nombre" v-model="log.nombre">
+            <input type="text" placeholder="Ci" v-model="log.ci">
+            <input type="text" placeholder="Nombre" v-model="log.nombre">
             <input type="submit">
         </form>
          <hr>

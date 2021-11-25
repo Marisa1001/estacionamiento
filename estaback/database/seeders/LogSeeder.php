@@ -14,6 +14,7 @@ class LogSeeder extends Seeder
      */
     public function run()
     {
+        //agregamos los datos de log
         DB::table("logs")->insert([
             ["fecha"=>"2021-01-01","hora"=>"10:00","monto"=>10,"auto_id"=>1,"user_id"=>1],
         ]);

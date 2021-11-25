@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
+//vamos al controlador
+
 Route::post('/login',[\App\Http\Controllers\UserController::class,'login']);
 
 Route::group(['middleware'=>"auth:sanctum"],function (){

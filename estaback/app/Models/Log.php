@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Log extends Model
-{
+{   //ponemos fecha hora el monto para el log del auto
     use HasFactory;
     protected $fillable=[
         "fecha",

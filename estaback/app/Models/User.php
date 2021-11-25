@@ -14,6 +14,9 @@ class User extends Authenticatable
 
     /**
      * The attributes that are mass assignable.
+     * //potegemos los apis con tokens 
+     * //para crear tokens usamos laravel sanctum
+     * // hoy en dia viene obligatoriamente en laravel
      *
      * @var string[]
      */
